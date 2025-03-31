@@ -1,0 +1,1387 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    SRC
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <link rel="stylesheet" href="./Styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ga+Maamli&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Sora:wght@100..800&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&family=Protest+Revolution&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <span id="breakpoints" class="text-white"></span>
+  <nav class="navbar navbar-expand bgs ">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="color:rgb(11,16,71)" href="#"><img class="picture"
+          src="./images/SRT-Logo no bg (1).png "></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto text-center mb-2 gap-4">
+          <li class="nav-item">
+            <a class="nav-link active " style="color:rgb(11,16,71)" aria-current="page" href="#"><img class="pictures"
+                src="./images/Sastra logo.png"></a>
+          </li>
+          </form>
+      </div>
+      <div class="collapse navbar-collapse justify-content-center " id="navbarSupportedContent">
+        <ul class="navbar-nav   gap-2  ">
+          <li class="nav-item">
+            <a class="nav-link active " style="color:rgb(11,16,71)" aria-current="page"
+              href="mailto:sastraracingteamratio@gmail.com"><i class="bi bi-envelope"></i><svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+              </svg></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active " style="color:rgb(11,16,71)" aria-current="page"
+              href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEo5R_76zgl6QAAAZOeAESwJpHHT3j1ezbrkPQz7LOWYgnvAMHDKmXIEOPlSihoqfjkedj9Qdi4lvXxeQv_3UpZjjvHj920pQpkZ5HoWj8TyqL-Low6iQZtqh0_H2AMmbVje-I=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fsastra-racing-team%2F"><i
+                class="bi bi-linkedin"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+              </svg></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active " style="color:rgb(11,16,71)" aria-current="page"
+              href="https://www.instagram.com/sastra_racing_team_ratio/profilecard/?igsh=MWQyeHhwNDVpcXJjMg%3D%3D"><i
+                class="bi bi-instagram"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+              </svg></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="color:rgb(11,16,71)" aria-current="page"
+              href="https://discord.com/invite/2nU7cBxbgx">
+              <i class="bi bi-discord"></i><svg xmlns="https://discord.com/invite/2nU7cBxbgx" width="16" height="16"
+                fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+                <path
+                  d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612" />
+              </svg></lable>
+            </a>
+          </li>
+          </form>
+      </div>
+    </div>
+  </nav>
+  <section class="page1">
+    <div class="containers-fluid text-white">
+      <div class="row">
+        <div class="col-md-12">
+          <div>
+            <h4>WELCOME TO</h4>
+          </div>
+          <div class="sastra"><span style="color:yellow;">SASTRA</span><span style="color: red;"> RACING</span><span
+              style="color: rgb(19, 19, 88);"> TEAM</span></div>
+          <div>
+            <h5>The Motorsports Club of SASTRA Deemed University</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <nav class="navbar sticky-top bg-body-tertiary navbar-expand-lg bg ">
+    <div class="container-fluid fluid">
+      <a class="navbar-brand text-white" href="#">SRT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-white"></span>
+      </button>
+      <div class="collapse navbar-collapse text-white" id="navbarNav">
+        <ul class="navbar-nav text-white">
+          <li class="nav-item">
+            <a class="nav-link active text-white " aria-current="page" href="#homes">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#crews">SAE INDIA COLLEGIATE CLUB</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#vehiclese">SUBSYSTEMS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#fourwheeler">EFWDC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#twowheeler">ETWDC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#bicycle">BICYCLE TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#drone">DRONE TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#sponserss">SPONSORS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#joinwith">JOIN US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#galleryies">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="Aluminies.html">ALUMNII</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="homes">
+    <div class="container-fluid" style="color:rgb(11,16,71)">
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="head view animate">
+            <h1>Who are we ?</h1>
+            <div class="para animate" style="color:black">
+              <h5>We are a team of passionate engineers with mixed interests, driven by our shared passion and common
+                drive to build something we love- automobiles and make a difference. We are the official RACING TEAM of
+                SASTRA.
+              </h5>
+              <div class="head">
+                <h1>What is SAE?</h1>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="para ">
+                    <h5>SAE – Society of Automotive Engineers is a platform for students like us to exhibit our
+                      knowledge, receive recognition for our hard work, and learn from field professionals.
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <img class="imagepic animate" src="./images/who .jpg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 texe animate">
+          <h1 class="compe">Competitions we participate
+          </h1>
+          <h5 style="color: black;">BDC - Bicycle Design Challenge</h5>
+          <h5 style="color: black;">EFWDC - Electric Four Wheeler Design Competition
+          </h5>
+          <h5 style="color: black;">ETWDC - Electric Two Wheeler Design Competition</h5>
+          <h5 style="color: black;">ADC - Autonomous Drone Development Challenge</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-fluid text-white view animate">
+      <div class="row">
+        <div class="col-md-2 bank">
+          <div class="logo">
+            <i class="bi bi-calendar-check-fill"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-calendar-check-fill" viewBox="0 0 16 16">
+              <path
+                d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2m-5.146-5.146-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708" />
+            </svg>
+          </div>
+          <div class="exper">
+            <h1>16</h1>
+            <h6>YEARS OF EXPERIENCES</h6>
+          </div>
+        </div>
+        <div class="col-md-2 bank">
+          <div class="logo">
+            <i class="bi bi-award-fill"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-award-fill"
+              viewBox="0 0 16 16">
+              <path
+                d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864z" />
+              <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+            </svg>
+          </div>
+          <div class="exper">
+            <h1>15</h1>
+            <h6>AWARDS</h6>
+          </div>
+        </div>
+        <div class="col-md-2 bank">
+          <div class="logo">
+            <i class="bi bi-ev-front-fill"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-ev-front-fill" viewBox="0 0 16 16">
+              <path
+                d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848Zm6.75.51a.186.186 0 0 0-.23.034L6.05 7.246a.188.188 0 0 0 .137.316h1.241l-.673 2.195a.19.19 0 0 0 .085.218c.075.043.17.03.23-.034l2.88-3.187a.188.188 0 0 0-.137-.316H8.572l.782-2.195a.19.19 0 0 0-.085-.218Z" />
+            </svg>
+          </div>
+          <div class="exper">
+            <h1>8</h1>
+            <h6>NO OF GREEN VEHICLES</h6>
+          </div>
+        </div>
+        <div class="col-md-2 bank">
+          <div class="logo">
+            <i class="bi bi-trophy-fill"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trophy-fill"
+              viewBox="0 0 16 16">
+              <path
+                d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935" />
+            </svg>
+          </div>
+          <div class="exper">
+            <h1>2</h1>
+            <h6>TOP 10 IN SAEINDIA ELECTRIC TWO WHEELER DESIGN COMPETITION</h6>
+          </div>
+        </div>
+        <div class="col-md-2 bank">
+          <div class="logo">
+            <i class="bi bi-trophy-fill"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trophy-fill"
+              viewBox="0 0 16 16">
+              <path
+                d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935" />
+            </svg>
+          </div>
+          <div class="exper">
+            <h1>3</h1>
+            <h6>TOP 10 IN SAEINDIA BICYCLE DESIGN CHALLENGE</h6>
+          </div>
+        </div>
+        <div class="col-md-2 bank">
+          <div class="logo">
+            <i class="bi bi-trophy-fill"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trophy-fill"
+              viewBox="0 0 16 16">
+              <path
+                d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935" />
+            </svg>
+          </div>
+          <div class="exper">
+            <h1>2</h1>
+            <h6>TOP 10 IN SAEINDIA ELECTRIC FOUR WHEELER DESIGN COMPETITION</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="crews">
+    <div class="container-fluid" style="color:rgb(11,16,71)">
+      <div class="row">
+        <div class="col-md-12 ">
+          <div class="vehicle ">
+            <div class="ourvehi text-white">
+              <h1>SAE INDIA COLLEGIATE CLUB</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 tex text-center animate">
+          <div> With a shared enthusiasm for pushing limits and overcoming obstacles, our team is at the nexus of
+            creativity and excitement. Our racetrack is dominated by a symphony of abilities that work in perfect
+            harmony, from the scream of the motors to the careful design of cutting-edge technologies.</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 per animate">
+          <img class="sir" src="./SAE/sir1.jpg">
+          <div>
+            <h3 class="name">Dr. MOHAN RAJ T</h3>
+            <h6 class="position">Overall Faculty In-Charge , SAEINDIA Collegiate Club</h6>
+            <a
+              href="https://www.linkedin.com/in/dr-mohan-raj-t-ba59001b4/?trk=people-guest_people_search-card&originalSubdomain=in"><label
+                class="labels">
+                <h6>LINKED IN</h6>
+              </label></a>
+          </div>
+        </div>
+        <div class="col-md-6 per animate">
+          <img class="sir" src="./SAE/sir2.jpg">
+          <div>
+            <div>
+              <h3 class="name">Dr. HARIHARAN SANKARA SUBRAMANIYAN</h3>
+            </div>
+            <div>
+              <h6 class="position">Faculty Advisor, SAEINDIA Collegiate Club</h6>
+            </div>
+            <div><a href="https://www.linkedin.com/in/drhariharans/"><label class="labels">
+                  <h6>LINKED IN</h6>
+                </label></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 per animate">
+          <img class="sir" src="./SAE/sir3.jpg">
+          <div>
+            <h3 class="name">Mr. JAYENDRA BHARATHI </h3>
+          </div>
+          <div>
+            <h6 class="position">Faculty Advisor, SAEINDIA Collegiate Club</h6>
+          </div>
+          <div><a href="https://www.linkedin.com/in/jayendra-bharathi-51999615/?originalSubdomain=in"><label
+                class="labels">
+                <h6>LINKED IN</h6>
+              </label></a></div>
+        </div>
+        <div class="col-md-6 per animate">
+          <img class="sir" src="./SAE/shriram dp[2].jpg">
+          <div class="space">
+            <div>
+              <h3 class="name">SHRIRAM PRAKASH </h3>
+            </div>
+            <div>
+              <h6 class="position">Overall Technical Co-ordinator, SASTRA Racing Team</h6>
+            </div>
+            <div>
+              <h6 class="position">Captain, Electric Two-Wheeler</h6>
+            </div>
+            <div><a
+                href="https://www.linkedin.com/in/shriram-prakash-989132252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><label
+                  class="labels">
+                  <h6>LINKED IN</h6>
+                </label></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 per animate">
+          <img class="sir" src="./SAE/kishore.jpg">
+          <div>
+            <h3 class="name">KISHORE VC </h3>
+          </div>
+          <div>
+            <h6 class="position">Chairperson, SAEINDIA Collegiate Club</h6>
+          </div>
+          <div><a
+              href="https://www.linkedin.com/in/kishore-v-c-828619311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><label
+                class="labels">
+                <h6>LINKED IN</h6>
+              </label></a></div>
+        </div>
+        <div class="col-md-6 per animate">
+          <img class="sir" src="./FourWheeler/suriya.jpg">
+          <div>
+            <h3 class="name">JAYASURYA </h3>
+          </div>
+          <div>
+            <h6 class="position">Vice Chairperson, SAEINDIA Collegiate Club </h6>
+          </div>
+          <div><a href="https://www.linkedin.com/in/jayasurya-s-826743270/"><label class="labels">
+                <h6>LINKED IN</h6>
+              </label></a></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 per animate">
+          <img class="sir" src="./SAE/maha.jpg">
+          <div>
+            <h3 class="name">MAHASREE G </h3>
+          </div>
+          <div>
+            <h6 class="position">Secretary, SAEINDIA Collegiate Club</h6>
+          </div>
+          <div>
+            <h6 class="position">Chassis Lead, Electric Two-Wheeler </h6>
+          </div>
+          <div><a
+              href="https://www.linkedin.com/in/mahasree-g-35b0b3260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><label
+                class="labels">
+                <h6>LINKED IN</h6>
+              </label></a></div>
+        </div>
+        <div class="col-md-6 per animate">
+          <img class="sir" src="./SAE/kaushika dp[1].jpg">
+          <div>
+            <h3 class="name">KAUSHIKA S </h3>
+          </div>
+          <div>
+            <h6 class="position">Treasurer, SAEINDIA Collegiate Club </h6>
+          </div>
+          <div>
+            <h6 class="position">Suspension Lead, Electic Two-Wheeler</h6>
+          </div>
+          <div><a href="http://linkedin.com/in/kaushika-srivathsan-654338245"><label class="labels">
+                <h6>LINKED IN</h6>
+              </label></a></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 per animate">
+          <img class="sir" src="./TwoWheeler/siv.jpg">
+          <div>
+            <h3 class="name">SIVARAM SUNDAR</h3>
+          </div>
+          <div>
+            <h6 class="position">Captain, Bicycle Team</h6>
+          </div>
+          <div><a
+              href="https://www.linkedin.com/in/sivaram-sundar-r-7932aa294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><label
+                class="labels">
+                <h6>LINKED IN</h6>
+              </label></a></div>
+        </div>
+        <div class="col-md-6 per animate">
+          <img class="sir" src="./FourWheeler/sanjeevaraj.jpg">
+          <div>
+            <h3 class="name">SANJEEVARAJ</h3>
+          </div>
+          <div>
+            <h6 class="position">Team Representative, Electric Four-Wheeler</h6>
+          </div>
+          <div><a href="https://www.linkedin.com/in/sanjeeva-raj-a1b0371b4/"><label class="labels">
+                <h6>LINKED IN</h6>
+              </label></a></div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 per animate">
+            <img class="sir" src="./Drone/ashwin.jpg">
+            <div>
+              <h3 class="name">ASHWIN</h3>
+            </div>
+            <div>
+              <h6 class="position">Captain, Autonomous Drone Challenge</h6>
+            </div>
+            <div><a
+                href="https://www.linkedin.com/in/ashwin-kumaar-73166427b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><label
+                  class="labels">
+                  <h6>LINKED IN</h6>
+                </label></a></div>
+          </div>
+          <div class="col-md-6 per animate">
+            <img class="sir" src="./Drone/ashwinr.jpg">
+            <div>
+              <h3 class="name">ASHWIN R</h3>
+            </div>
+            <div>
+              <h6 class="position">Drone Pilot, Autonomous Drone Challenge</h6>
+            </div>
+            <div><a
+                href="https://www.linkedin.com/in/ashwin-r-05b87129b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><label
+                  class="labels">
+                  <h6>LINKED IN</h6>
+                </label></a></div>
+          </div>
+        </div>
+  </section>
+  <section id="vehiclese">
+    <div class="container-fluid con" style="color:rgb(11,16,71)">
+      <div class="row">
+        <div class="col-md-12 ">
+          <div class="vehicle">
+            <h1 class="ours">
+              <div class="ourvehi text-white ">SUBSYSTEMS</div>
+          </div>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 animate">
+        <div>
+          <h3 class="cha">Powertrain
+          </h3>
+        </div>
+        <div>
+          <h6 class="mid" style="color: black;">The powertrain is the heart of a vehicle, transforming raw energy from
+            the engine or electric motor into motion that propels the wheels. It's a symphony of engineering brilliance,
+            where components like the transmission, driveshaft, and axles harmonize to deliver power seamlessly. </h6>
+        </div>
+      </div>
+      <div class="col-md-6 animate">
+        <div>
+          <h3 class="cha">Chassis</h3>
+        </div>
+        <div>
+          <h6 class="mid" style="color: black;">The chassis is the backbone of a vehicle, the sturdy framework that
+            supports every system and component while shaping the ride's character. More than just a foundation, it’s
+            where strength meets agility, balancing safety, stability, and performance. As vehicles evolve, the chassis
+            is becoming lighter, smarter, and more adaptive, laying the groundwork for the next generation of mobility.
+          </h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 animate">
+          <div>
+            <h3 class="brake cha">Brakes</h3>
+          </div>
+          <div>
+            <h6 class="mid" style="color: black;">Brakes are the unsung heroes of every journey, turning raw speed into
+              controlled power. They embody the art of precision, converting kinetic energy into heat to ensure safety
+              and command over the road. From traditional hydraulic systems to cutting-edge regenerative braking in
+              electric vehicles, brakes are evolving to not only stop but also play a key role in energy efficiency and
+              performance.</h6>
+          </div>
+        </div>
+        <div class="col-md-6 animate">
+          <div>
+            <h3 class="brake cha">Suspension</h3>
+          </div>
+          <div>
+            <h6 class="mid" style="color: black;">The suspension system is the silent sculptor of every ride, blending
+              comfort with control. It absorbs the imperfections of the road, keeping the tires grounded and the journey
+              smooth. Beyond just dampening bumps, modern suspension systems adapt dynamically, enhancing performance,
+              stability, and safety, making every drive a seamless dance between the vehicle and the terrain.</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 text-center animate">
+          <img class="ss" src="./images/DSC02919[1].JPG">
+        </div>
+        <div class="col-md-6 text-center animate">
+          <img class="ss" src="./images/vehicle 2.jpg">
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <section id="fourwheeler">
+    <div class="container-fluid" style="color:rgb(11,16,71)">
+      <div class="row">
+        <div class="col-md-12 ">
+          <div class="vehicle ">
+            <div class="ourvehi text-white">
+              <h1>ELECTRIC FOUR WHEELER DESIGN TEAM</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 tex text-center animate">
+          <div> With a shared enthusiasm for pushing limits and overcoming obstacles, our team is at the nexus of
+            creativity and excitement. Our racetrack is dominated by a symphony of abilities that work in perfect
+            harmony, from the scream of the motors to the careful design of cutting-edge technologies.</div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4 per animate">
+          <img class="leads" src="./FourWheeler/suriya.jpg">
+          <div>
+            <div>
+              <h3 class="name">JAYASURYA</h3>
+            </div>
+            <div>
+              <h6 class="position">Team Guide</h6>
+            </div>
+            <div><a href="https://www.linkedin.com/in/drhariharans/"><label class="labels">
+                  <h6>LINKED IN</h6>
+                </label></a></div>
+          </div>
+        </div>
+        <div class="col-md-4 per animate">
+          <img class="leads" src="./FourWheeler/Srikanth52210.jpg">
+          <div>
+            <div>
+              <h3 class="name">SRIKAANTH M</h3>
+            </div>
+            <div>
+              <h6 class="position">Team Guide</h6>
+            </div>
+            <div><a href="https://www.linkedin.com/in/drhariharans/"><label class="labels">
+                  <h6>LINKED IN</h6>
+                </label></a></div>
+          </div>
+        </div>
+
+        <div class="col-md-4 per animate">
+          <img class="leads" src="./FourWheeler/Jushwanth.jpg">
+          <div>
+            <div>
+              <h3 class="name">JUSHWANTH T</h3>
+            </div>
+            <div>
+              <h6 class="position">Team Guide</h6>
+            </div>
+            <div><a href="https://www.linkedin.com/in/drhariharans/"><label class="labels">
+                  <h6>LINKED IN</h6>
+                </label></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 per animate">
+          <img class="leads" src="./FourWheeler/Vishwa Narayanan.jpg">
+          <div>
+            <h3 class="name">VISHWA NARAYANAN </h3>
+          </div>
+          <div>
+            <h6 class="position">Team Guide</h6>
+          </div>
+          <div><a href="https://www.linkedin.com/in/jayendra-bharathi-51999615/?originalSubdomain=in"><label
+                class="labels">
+                <h6>LINKED IN</h6>
+              </label></a></div>
+        </div>
+        <div class="col-md-6 per animate">
+          <img class="leads" src="./FourWheeler/gokul.jpg">
+          <div class="space">
+            <div>
+              <h3 class="name">GOKUL</h3>
+            </div>
+            <div>
+              <h6 class="position">Team Guide</h6>
+            </div>
+            <div><a
+                href="https://www.linkedin.com/in/shriram-prakash-989132252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><label
+                  class="labels">
+                  <h6>LINKED IN</h6>
+                </label></a></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 per animate">
+            <img class="leads" src="./FourWheeler/Vishwa Narayanan.jpg">
+            <div>
+              <h3 class="name">VIGNESH</h3>
+            </div>
+            <div>
+              <h6 class="position">Captain, Electric Four Wheeler Design Team</h6>
+            </div>
+            <div><a href="https://www.linkedin.com/in/jayendra-bharathi-51999615/?originalSubdomain=in"><label
+                  class="labels">
+                  <h6>LINKED IN</h6>
+                </label></a></div>
+          </div>
+          <div class="col-md-6 per animate">
+            <img class="leads" src="./FourWheeler/gokul.jpg">
+            <div class="space">
+              <div>
+                <h3 class="name">RAJMOHAN</h3>
+              </div>
+              <div>
+                <h6 class="position">Vice Captain, Electric Four Wheeler Design Team</h6>
+              </div>
+              <div><a
+                  href="https://www.linkedin.com/in/shriram-prakash-989132252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><label
+                    class="labels">
+                    <h6>LINKED IN</h6>
+                  </label></a></div>
+            </div>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 per animate ">
+          <img class="members" src="./FourWheeler/Mukundh Shrivatsa.jpg">
+          <div>
+            <h3 class="name">MUKUNTH SHRIVATSA K S </h3>
+          </div>
+        </div>
+        <div class="col-md-3 per animate">
+          <img class="members" src="./sir3.jpg">
+          <div>
+            <h3 class="name">AKILESH C </h3>
+          </div>
+        </div>
+        <div class="col-md-3 per animate">
+          <img class="members" src="./FourWheeler/sanjeevaraj.jpg">
+          <div>
+            <h3 class="name">SANJEEVA RAJ U </h3>
+          </div>
+        </div>
+        <div class="col-md-3 per animate">
+          <img class="members" src="./FourWheeler/Jaisakthi.jpg">
+          <div>
+            <h3 class="name">JAISAKTHIVEL A </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 per animate">
+            <img class="members" src="./FourWheeler/Balamurugan.jpeg">
+            <div>
+              <h3 class="name">BALAMURUGAN S </h3>
+            </div>
+
+          </div>
+          <div class="col-md-3 per animate">
+            <img class="members" src="./FourWheeler/Ahaspath K.jpg">
+            <div>
+              <h3 class="name">AHASPATH </h3>
+            </div>
+          </div>
+          <div class="col-md-3 per animate">
+            <img class="members" src="./FourWheeler/guruganesh.jpg">
+            <div>
+              <h3 class="name">GURU GANESH V </h3>
+            </div>
+          </div>
+          <div class="col-md-3 per animate">
+            <img class="members" src="./FourWheeler/88617 - Vignesh V.jpg">
+            <div>
+              <h3 class="name">VIGNESH V </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 per animate">
+              <img class="members" src="./FourWheeler/Kesavan.jpg">
+              <div>
+                <h3 class="name">KESAVAN K P </h3>
+              </div>
+            </div>
+            <div class="col-md-3 per animate">
+              <img class="members" src="./FourWheeler1/Praveen G R.jpg">
+              <div>
+                <h3 class="name">PRAVEEN GR </h3>
+              </div>
+            </div>
+            <div class="col-md-3 per animate">
+              <img class="members" src="./FourWheeler1/Tarun Sundar.jpg">
+              <div>
+                <h3 class="name">TARUN SUNDAR S </h3>
+              </div>
+            </div>
+            <div class="col-md-3 per animate">
+              <img class="members" src="./FourWheeler1/Sudharshan.jpg">
+              <div>
+                <h3 class="name">SUDHARSHAN </h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 per animate">
+                <img class="members" src="./FourWheeler1/Dinesh S.jpeg">
+                <div>
+                  <h3 class="name">DINESH S </h3>
+                </div>
+              </div>
+              <div class="col-md-3 per animate">
+                <img class="members" src="./FourWheeler1/Midhun S.jpg">
+                <div>
+                  <h3 class="name">MIDHUN S </h3>
+                </div>
+              </div>
+              <div class="col-md-3 per animate">
+                <img class="members" src="./FourWheeler1/Sai dwarakanath.jpg">
+                <div>
+                  <h3 class="name">SAI DWARAKANATH V </h3>
+                </div>
+              </div>
+              <div class="col-md-3 per animate">
+                <img class="members" src="./FourWheeler1/Sridharan S.jpg">
+                <div>
+                  <h3 class="name">SRIDHARAN S </h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 per animate">
+                  <img class="members" src="./FourWheeler1/Tholkappiyan Nagendran.jpg">
+                  <div>
+                    <h3 class="name">THOLKAPPIYAN K N </h3>
+                  </div>
+                </div>
+                <div class="col-md-3 per animate">
+                  <img class="members" src="./FourWheeler1/Sethupandi S.A.jpeg">
+                  <div>
+                    <h3 class="name">SETHUPANDI S A</h3>
+                  </div>
+                </div>
+                <div class="col-md-3 per animate">
+                  <img class="members" src="./FourWheeler1/Sankara Subramanian.jpg">
+                  <div>
+                    <h3 class="name">SANKARA SUBRAMANIAN </h3>
+                  </div>
+                </div>
+                <div class="col-md-3 per animate">
+                  <img class="members" src="./FourWheeler1/Sudarshan Rajesh.jpg">
+                  <div>
+                    <h3 class="name">SUDARSHAN RAJESH</h3>
+                  </div>
+                </div>
+                <div class="row">
+
+                  <div class="col-md-12 per animate text-center">
+                    <img class="members" src="./FourWheeler1/Harish - Harish Karthikeyan (1).JPG">
+                    <div>
+                      <h3 class="name">HARISH</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+  </section>
+  <section id="twowheeler">
+    <div class="container-fluid" style="color:rgb(11,16,71)">
+      <div class="row">
+        <div class="col-md-12 ">
+          <div class="vehicle ">
+            <div class="ourvehi text-white">
+              <h1>ELECTRIC TWO WHEELER DESIGN TEAM</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 tex text-center animate">
+          <div> With a shared enthusiasm for pushing limits and overcoming obstacles, our team is at the nexus of
+            creativity and excitement. Our racetrack is dominated by a symphony of abilities that work in perfect
+            harmony, from the scream of the motors to the careful design of cutting-edge technologies.</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img class="sir" src="./SAE/sir3.jpg">
+          <div>
+            <h3 class="name">Mr. JAYENDRA BHARATHI </h3>
+          </div>
+          <div>
+            <h6 class="position">Faculty Advisor, SAEINDIA Collegiate Club</h6>
+          </div>
+          <div><a href="https://www.linkedin.com/in/jayendra-bharathi-51999615/?originalSubdomain=in"><label
+                class="labels">
+                <h6>LINKED IN</h6>
+              </label></a></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 per animate">
+          <img class="sir" src="./TwoWheeler/siv.jpg">
+          <div>
+            <h3 class="name">SIVARAM SUNDAR  </h3>
+          </div>
+          <div>
+            <h6 class="position">Captain, Electric Two Wheeler Design Team</h6>
+          </div>
+          <div><a href="https://www.linkedin.com/in/jayendra-bharathi-51999615/?originalSubdomain=in"><label
+                class="labels">
+                <h6>LINKED IN</h6>
+              </label></a></div>
+        </div>
+        <div class="col-md-6 per animate">
+          <img class="sir" src="./TwoWheeler/siv.jpg">
+          <div class="space">
+            <div>
+              <h3 class="name">SIVARAM SUNDAR </h3>
+            </div>
+            <div>
+              <h6 class="position">Overall Technical Co-ordinator, SASTRA Racing Team</h6>
+            </div>
+            <div><a
+                href="https://www.linkedin.com/in/shriram-prakash-989132252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><label
+                  class="labels">
+                  <h6>LINKED IN</h6>
+                </label></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 per animate">
+          <img class="twowheeler" src="./TwoWheeler/Sarvesh.jpg">
+          <div>
+            <h3 class="name">SARVESH </h3>
+          </div>
+        </div>
+        <div class="col-md-3 per animate">
+          <img class="twowheeler" src="./TwoWheeler/gokulbalan dp.jpg">
+          <div>
+            <h3 class="name">GOKULBALAN </h3>
+          </div>
+        </div>
+        <div class="col-md-3 per animate">
+          <img class="twowheeler" src="./TwoWheeler/Eesha.jpg">
+          <div>
+            <h3 class="name">EESHA </h3>
+          </div>
+        </div>
+        <div class="col-md-3 per animate">
+          <img class="twowheeler" src="./TwoWheeler/shivani dp.jpg">
+          <div>
+            <h3 class="name">SHIVANI </h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 per animate">
+          <img class="twowheeler" src="./TwoWheeler/Sai Naveen Krishna Maddu.jpg">
+          <div>
+            <h3 class="name">SAI NAVEEN KRISHNA MADDU</h3>
+          </div>
+        </div>
+        <div class="col-md-3 per animate">
+          <img class="twowheeler" src="./TwoWheeler/Kiranmayi.jpg">
+          <div>
+            <h3 class="name">KIRANMAYI</h3>
+          </div>
+        </div>
+        <div class="col-md-3 per animate">
+          <img class="twowheeler" src="./TwoWheeler/Sania.jpg">
+          <div>
+            <h3 class="name">SANIA </h3>
+          </div>
+        </div>
+        <div class="col-md-3 per animate">
+          <img class="twowheeler" src="./TwoWheeler/Varathamuneeswaran M.jpg">
+          <div>
+            <h3 class="name">VARATHAMUNEESWARAN M</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="bicycle">
+    <div class="container-fluid" style="color:rgb(11,16,71)">
+      <div class="row">
+        <div class="col-md-12 ">
+          <div class="vehicle ">
+            <div class="ourvehi text-white">
+              <h1>BICYCLE TEAM</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 tex text-center animate">
+          <div> With a shared enthusiasm for pushing limits and overcoming obstacles, our team is at the nexus of
+            creativity and excitement. Our racetrack is dominated by a symphony of abilities that work in perfect
+            harmony, from the scream of the motors to the careful design of cutting-edge technologies.</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img class="sir" src="./SAE/sir3.jpg">
+          <div>
+            <h3 class="name">Mr. JAYENDRA BHARATHI </h3>
+          </div>
+          <div>
+            <h6 class="position">Faculty Advisor, SAEINDIA Collegiate Club</h6>
+          </div>
+          <div><a href="https://www.linkedin.com/in/jayendra-bharathi-51999615/?originalSubdomain=in"><label
+                class="labels">
+                <h6>LINKED IN</h6>
+              </label></a></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 per animate">
+          <img class="sir" src="./bicycle/Athithya U K.jpeg">
+          <div>
+            <h3 class="name">ATHITHYA U K  </h3>
+          </div>
+          <div>
+            <h6 class="position">Captain, Bicycle Team</h6>
+          </div>
+          <div><a href="https://www.linkedin.com/in/jayendra-bharathi-51999615/?originalSubdomain=in"><label
+                class="labels">
+                <h6>LINKED IN</h6>
+              </label></a></div>
+        </div>
+        <div class="col-md-6 per animate">
+          <img class="sir" src="./bicycle/Athithya U K.jpeg">
+          <div class="space">
+            <div>
+              <h3 class="name">ATHITHYA U K </h3>
+            </div>
+            <div>
+              <h6 class="position">Overall Technical Co-ordinator, SASTRA Racing Team</h6>
+            </div>
+            <div>
+              <h6 class="position">Captain, Electric Two-Wheeler</h6>
+            </div>
+            <div><a
+                href="https://www.linkedin.com/in/shriram-prakash-989132252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><label
+                  class="labels">
+                  <h6>LINKED IN</h6>
+                </label></a></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 per animate">
+            <img class="twowheeler" src="./bicycle/Arunthathi S.jpg">
+            <div>
+              <h3 class="name">ARUNTHATHI </h3>
+            </div>
+          </div>
+          <div class="col-md-4 per animate">
+            <img class="twowheeler" src="./bicycle/Narendran.jpg">
+            <div class="space">
+              <div>
+                <h3 class="name">NARENDRAN K </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 per animate">
+            <img class="twowheeler" src="./bicycle/Poornachandran M.webp">
+            <div class="space">
+              <div>
+                <h3 class="name">POORNACHANDRAN M </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 per animate">
+            <img class="twowheeler" src="./bicycle/Vijayaraghavan.jpeg">
+            <div>
+              <h3 class="name">VIJAYARAGAVAN</h3>
+            </div>
+          </div>
+          <div class="col-md-4 per animate">
+            <img class="twowheeler" src="./bicycle/Yoha Dharshini.JPG">
+            <div>
+              <h3 class="name">YOHA DHARSHINI </h3>
+            </div>
+          </div>
+          <div class="col-md-4 per animate">
+            <img class="twowheeler" src="./shriram dp[2].jpg">
+            <div class="space">
+              <div>
+                <h3 class="name">SHRIRAM PRAKASH </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="drone">
+    <div class="container-fluid" style="color:rgb(11,16,71)">
+      <div class="row">
+        <div class="col-md-12 ">
+          <div class="vehicle ">
+            <div class="ourvehi text-white">
+              <h1>DRONE TEAM</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 tex text-center animate">
+          <div> With a shared enthusiasm for pushing limits and overcoming obstacles, our team is at the nexus of
+            creativity and excitement. Our racetrack is dominated by a symphony of abilities that work in perfect
+            harmony, from the scream of the motors to the careful design of cutting-edge technologies.</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img class="sir" src="./SAE/sir3.jpg">
+          <div>
+            <h3 class="name">Mr. JAYENDRA BHARATHI </h3>
+          </div>
+          <div>
+            <h6 class="position">Faculty Advisor, SAEINDIA Collegiate Club</h6>
+          </div>
+          <div><a href="https://www.linkedin.com/in/jayendra-bharathi-51999615/?originalSubdomain=in"><label
+                class="labels">
+                <h6>LINKED IN</h6>
+              </label></a></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 per animate">
+          <img class="leads" src="./Drone/ashwin.jpg">
+          <div>
+            <h3 class="name">ASHWIN</h3>
+          </div>
+          <div>
+            <h6 class="position">Captain, Drone Team</h6>
+          </div>
+          <div><a href="https://www.linkedin.com/in/jayendra-bharathi-51999615/?originalSubdomain=in"><label
+                class="labels">
+                <h6>LINKED IN</h6>
+              </label></a></div>
+        </div>
+        <div class="col-md-4 per animate">
+          <img class="leads" src="./Drone/Badri Prasath.jpg">
+          <div class="space">
+            <div>
+              <h3 class="name">BADRI PRASATH </h3>
+            </div>
+            <div>
+              <h6 class="position">Vice Captain, Drone Team</h6>
+            </div>
+            <div><a
+                href="https://www.linkedin.com/in/shriram-prakash-989132252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><label
+                  class="labels">
+                  <h6>LINKED IN</h6>
+                </label></a></div>
+          </div>
+        </div>
+        <div class="col-md-4 per animate">
+          <img class="leads" src="./Drone/ashwinr.jpg">
+          <div class="space">
+            <div>
+              <h3 class="name">ASHWIN R </h3>
+            </div>
+            <div>
+              <h6 class="position">Overall Technical Co-ordinator, SASTRA Racing Team</h6>
+            </div>
+            <div><a
+                href="https://www.linkedin.com/in/shriram-prakash-989132252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><label
+                  class="labels">
+                  <h6>LINKED IN</h6>
+                </label></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 per animate">
+          <img class="twowheeler" src="./Drone/Annamalai .jpg">
+          <div>
+            <h3 class="name">ANNAMALAI </h3>
+          </div>
+        </div>
+        <div class="col-md-3 per animate">
+          <img class="twowheeler" src="./Drone/Jai Krishna.jpg">
+          <div>
+            <h3 class="name">JAI KRISHNA</h3>
+          </div>
+        </div>
+        <div class="col-md-3 per animate">
+          <img class="twowheeler" src="./Drone/jujika Sri.jpg">
+          <div>
+            <h3 class="name">JUJIKA SRI </h3>
+          </div>
+        </div>
+        <div class="col-md-3 per animate">
+          <img class="twowheeler" src="./Drone/Karthik S.jpg">
+          <div>
+            <h3 class="name">KARTHIK S</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 per animate">
+          <img class="twowheeler" src="./Drone/Mahesh Anandh.jpg">
+          <div>
+            <h3 class="name">MAHESH ANANDH</h3>
+          </div>
+        </div>
+        <div class="col-md-4 per animate">
+          <img class="twowheeler" src="./Drone/Sai Varshitha.jpg">
+          <div>
+            <h3 class="name">SAI VARSHITHA</h3>
+          </div>
+        </div>
+        <div class="col-md-4 per animate">
+          <img class="twowheeler" src="./Drone/Shyam Danial.jpg">
+          <div>
+            <h3 class="name">SHYAM DANIAL</h3>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section id="sponserss">
+    <div class="container-fluid" style="color:rgb(11,16,71)">
+      <div class="row">
+        <div class="tittle">
+          <h1 class="spoo text-white">SPONSORS</h1>
+        </div>
+        <div class="col-md-3 ">
+          <img class="spon animate" src="./images/ANSYS_logo (1)[1].png">
+          <h4 class="sub animate">Software Sponsor - FEA</h4>
+        </div>
+        <div class="col-md-3 ">
+          <img class="spons animate" src="./images/solidwork.png">
+          <h4 class="sub animate">Software Sponsor - CAD</h4>
+        </div>
+        <div class="col-md-3">
+          <img class="spons animate" src="./images/Altium_Logo_BLK (1).png">
+          <h4 class="sub animate">Software Sponsor - Electronics Design</h4>
+        </div>
+        <div class="col-md-3">
+          <img class="sponse animate" src="./images/pngwing.com[1].1.png">
+          <h4 class="sub animate">Workspace Sponsor </h4>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="joinwith">
+    <div class="container-fluid text-center" style="color:rgb(11,16,71)">
+      <div class="row">
+        <div class="col-md-12 heading">
+          <h1 class="joinus text-white">JOIN US</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./images/SRT-Logo no bg (1).png">
+        </div>
+        <div class="col-md-6 text-center animate">
+          <div class="connect">
+            <h4>CLICK HERE TO CONNECT WITH RATIO</h4>
+            <a href="https://forms.gle/5vqiRYbziCDuPu5X8"><label>
+                <h6 class="click">CLICK HERE TO APPLY</h6>
+              </label></a>
+          </div>
+          <div class="connectvector">
+            <h4>CLICK HERE TO CONNECT WITH VECTOR</h4>
+            <a href="https://forms.gle/5vqiRYbziCDuPu5X8"><label>
+                <h6 class="click">CLICK HERE TO APPLY</h6>
+              </label></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="galleryies">
+    <div class="container-fluid" style="color:rgb(11,16,71)">
+      <div class="row">
+        <div class="col-md-12 heading">
+          <h1 class="gallerry text-white">GALLERY</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="color:rgb(11,16,71)">
+      <div class="row text-center">
+        <div class="col-md-4 ">
+          <img class="photoo animate" src="./gallery/gal1.jpg">
+        </div>
+        <div class="col-md-4">
+          <img class="photoo animate" src="./gallery/gal2.jpg">
+        </div>
+        <div class="col-md-4">
+          <img class="photoo animate" src="./gallery/gal3.jpg">
+        </div>
+      </div>
+      <div class="row  text-center">
+        <div class="col-md-4 ">
+          <img class="photoo animate" src="./gallery/gal4.jpg">
+        </div>
+        <div class="col-md-4">
+          <img class="photoo animate" src="./gallery/gal5.jpg">
+        </div>
+        <div class="col-md-4">
+          <img class="photoo animate" src="./gallery/gal6.jpg">
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4 ">
+          <img class="photoo animate" src="./gallery/gal7.jpg">
+        </div>
+        <div class="col-md-4">
+          <img class="photoo animate" src="./gallery/gal8.jpg">
+        </div>
+        <div class="col-md-4">
+          <img class="photoo animate" src="./gallery/gal9.jpg">
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4 ">
+          <img class="photoo animate" src="./gallery/gal12.jpg">
+        </div>
+        <div class="col-md-4">
+          <img class="photoo animate" src="./gallery/gal10.jpg">
+        </div>
+        <div class="col-md-4">
+          <img class="photoo animate" src="./gallery/gal11.jpg">
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4 ">
+          <img class="photoo animate" src="./gallery/gal13.jpg">
+        </div>
+        <div class="col-md-4">
+          <img class="photoo animate" src="./gallery/gal14.jpg">
+        </div>
+        <div class="col-md-4">
+          <img class="photoo animate" src="./gallery/gal15.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec">
+    <div class="container-fluid containeR text-white">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="tit animatee">
+            <h3>SASTRA Racing Team</h3>
+          </div>
+          <h6 class="titll animatee">The official motorsports club of SASTRA Deemed University.</h6>
+          <div class="iconss titl animatee">
+            <a href="https://www.instagram.com/sastra_racing_team_ratio/profilecard/?igsh=MWQyeHhwNDVpcXJjMg%3D%3D"><label>
+                <i class="bi bi-instagram"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-instagram"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                </svg></label></a>
+            <span class="face">
+              <a href="mailto:sastraracingteamratio@gmail.com"><label>
+                  <i class="bi bi-envelope"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path
+                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                  </svg></label></a>
+            </span>
+            <span class="face">
+              <a href="https://discord.com/invite/2nU7cBxbgx"><label>
+                  <i class="bi bi-discord"></i><svg xmlns="https://discord.gg/9mHNDBgYGY" width="16" height="16"
+                    fill="white" class="bi bi-discord" viewBox="0 0 16 16">
+                    <path
+                      d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612" />
+                  </svg></label></a>
+            </span>
+            <span class="face">
+              <a
+                href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEo5R_76zgl6QAAAZOeAESwJpHHT3j1ezbrkPQz7LOWYgnvAMHDKmXIEOPlSihoqfjkedj9Qdi4lvXxeQv_3UpZjjvHj920pQpkZ5HoWj8TyqL-Low6iQZtqh0_H2AMmbVje-I=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fsastra-racing-team%2F"><label>
+                  <i class="bi bi-linkedin"></i>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-linkedin"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                  </svg></label></a>
+            </span>
+          </div>
+        </div>
+        <div class="col-md-6 padd animatee">
+          <div class="tittlle">
+            <h3>Contact Information</h3>
+          </div>
+          <div class="col-md-6 fills ">
+            <i class="bi bi-geo-alt-fill"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+            </svg>
+            <h7>SASTRA Deemed University</h7>
+          </div>
+          <div class="col-md-6 fills">
+            <i class="bi bi-telephone-fill"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-telephone-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+            </svg>
+            <h7>8072195769</h7>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class=" container-fluid text-white text-center animatee">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="text-center  pad">Copyright @ 2025 All rights reserved by SRT SASTRA | Designed by<a
+                class="text-white" href="https://www.linkedin.com/in/naaga-apoorva-s-775bb9300/"> <label
+                  class="Apoorva text-white">Naaga Apoorva Sri N</label></a>, SASTRA Deemed University </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    </div>
+  </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>

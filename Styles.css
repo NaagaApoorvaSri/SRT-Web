@@ -1,0 +1,413 @@
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+    
+.page1{
+    background-image: url("./images/Black\ and\ White\ Chalkboard\ Brainstorm\ Presentation\ \(1\)[1].png");
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding:250px 0;
+    padding: 250px 0;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: contain;
+    background-position: center;
+    margin: 0;
+    background-size: 100% 100%;
+
+}
+.members{
+    width: 150px;
+    height: 150px;
+}
+.hello{
+    text-align: center;
+    padding-top: 300px;
+    font-family: "Protest Revolution", serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    
+  
+}
+.twowheeler{
+    width: 300px;
+    height: 300px;
+}
+.space{
+    padding-top: 5px;
+}
+.pic{
+    width:525px;
+    height: 600px;
+    padding-top: 150px;
+}
+.cha
+{
+    text-align:center;
+}
+.mid{
+    text-align: center;
+}
+.page{
+padding-top: 50px;
+}
+.head{
+    background-color: white;
+    padding-top: 50px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(11,16,71);
+}
+.para{
+    padding-top: 20px;
+}
+.imagepic{
+    padding-top: 50px;
+    width:480px;
+    padding-bottom: 10px;
+}
+.logo{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    
+}
+.exper{
+    text-align: center;
+}
+.bank{
+    padding-top: 10px;
+    background-color:rgb(11,16,71);
+    padding-bottom: 20px;
+}
+.photo{
+    padding-top: 10px;
+    width:315px;
+    height:200px;
+
+}
+.photoo{
+    width:500px;
+    height: 430px;
+    padding-bottom: 10px;
+}
+.heading{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.title{
+    text-align: center;
+    padding-top: 20px;
+}
+.cards-wrapper{
+    display: flex;
+}
+.tittle{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card{
+    width: 250px;
+}
+.tit{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.sec{
+    background-color:rgb(6, 6, 6);
+}
+.bg{
+    background-color: rgb(5, 5, 47);
+    color: rgb(11,16,71);
+    
+}
+.nav-link:hover{
+border-bottom:2px solid white;
+}
+.container{
+    background-color:white;
+    overflow: hidden;
+    
+}
+.containerR{
+    background-color: rgb(31, 28, 28);
+}
+.sastra{
+    font-size: 85px;
+    
+}
+.animatee{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 10%;
+}
+.vehicle{
+   padding-top: 20px;
+   padding-bottom: 20px;
+   text-align: center;
+   text-decoration-line: underline;
+}
+.ourvehi{
+    background-color:rgb(11,16,71);
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    
+}
+
+.spoo{
+    background-color: rgb(11,16,71);
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.joinus{
+    background-color: rgb(11,16,71);
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.gallerry{
+    background-color: rgb(11,16,71);
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.animate{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.con{
+    padding-bottom: 20px;
+}
+.per{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tex{
+    padding-bottom: 20px;
+}
+.texs{
+    padding-top: 20px;
+}
+.picture{
+    height: 50px;
+    width:120px
+}
+.pictures{
+    height:80px;
+    width:400px;
+}
+.leads{
+    width: 445px;
+    height: 400px;
+    text-align: center;
+}
+.bgs{
+    background-color: white;
+}
+.sub{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.ours{
+    text-decoration-line: underline;
+}
+.texe{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.compe{
+    padding-bottom: 10px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.ss{
+    width: 520px;
+    height: 360px;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.brake{
+    padding-top: 30px;
+}
+.spon{
+    width: 160px;
+    height: 55px;
+    display:block;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+
+}
+
+.spons{
+    width: 160px;
+    height: 57px;
+    display:block;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+    
+}
+.sponse{
+    width: 65px;
+    height: 57px;
+    display:block;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.titl{
+    padding-left: 50px;
+    padding-bottom: 4px;
+}
+.titll{
+    padding-left: 50px;
+}
+.tittlle{
+    padding-top: 50px;
+    padding-bottom: 1px;
+    
+    
+}
+.padd{
+    padding-left: 60px;
+}
+.fills{
+    padding-bottom: 3px;
+}
+.face{
+    padding-left: 10px;
+}
+.pad{
+    padding-top: 50px;
+}
+
+.sir{
+    width:550px;
+    height:340px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.name{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 20px;
+}
+.position{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.labels{
+    border: solid 2px;
+    background-color: rgb(4, 4, 40);
+    color: white;
+    border-radius: 15%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.student{
+    width:540px;
+    height:600px;
+}
+.names{
+padding-top: 60px;
+}
+.ka{
+    width:540px;
+    height:675px;
+}
+.joins{
+    width: 700px;
+    height: 360px;
+    text-align: center;
+    justify-content: center;
+}
+.connect{
+    padding-top: 90px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.connectvector{
+    padding-top: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.click{
+    justify-content: center;
+    text-align: center;
+    border: solid 2px ;
+    padding-top: 5px;
+    background-color: rgb(75, 122, 232);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    border-radius:10px ;
+}
+.HEAD{
+    padding-top: 90px;
+}
+.joinn{
+    padding-bottom: 20px;
+}
+.fluid{
+    background-color: rgb(11, 11, 43);
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.Apoorva{
+    text-decoration: underline;
+}
+
