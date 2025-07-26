@@ -19,6 +19,9 @@
     font-style: normal;
     font-size:25px
 }
+.card-body{
+    width:300px;
+}
 .title{
     width: 500px;
 }
