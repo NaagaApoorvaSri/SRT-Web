@@ -61,8 +61,14 @@
   font-size: 16px;
   line-height: 1.4;
 }
-.variable{
-    color: #0077b5;
+.label {
+  color: #6c757d; /* Gray or any color for "NAME:" */
+  font-weight: bold;
+}
+
+.value {
+  color: #007bff; /* Blue or your preferred color for the name */
+  font-weight: normal;
 }
 
 a h6 {
