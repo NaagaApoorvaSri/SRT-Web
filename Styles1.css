@@ -62,12 +62,12 @@
   line-height: 1.4;
 }
 .label {
-  color: #6c757d; /* Gray or any color for "NAME:" */
+  color: #6c757d;
   font-weight: bold;
 }
 
 .value {
-  color: rgb(5, 5, 47); /* Blue or your preferred color for the name */
+  color: rgb(34, 23, 120); 
   font-weight: normal;
 }
 .info-line {
