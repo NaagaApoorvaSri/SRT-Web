@@ -70,6 +70,12 @@
   color: rgb(11,16,71); /* Blue or your preferred color for the name */
   font-weight: normal;
 }
+.info-line {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 16px;
+}
 
 a h6 {
   display: inline;
