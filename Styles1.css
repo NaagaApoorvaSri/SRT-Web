@@ -13,6 +13,12 @@
     background-size: 100% 100%;
     height: 100vh;
 }
+.card-text{
+     font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:25px
+}
 .title{
     width: 500px;
 }
