@@ -14,14 +14,11 @@
     height: 100vh;
 }
 .card-text{
-     
-
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <400>;
   font-style: normal;
-
-    font-size: 15px;
+  font-size: 15px;
 }
 .card-body{
     width: 400px;
@@ -69,7 +66,11 @@
   color: #6c757d;
   font-weight: bold;
 }
-
+.animate{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
 .value {
   color: rgb(34, 23, 120); 
   font-family: "Josefin Sans", sans-serif;
