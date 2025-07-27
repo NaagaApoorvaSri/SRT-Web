@@ -62,19 +62,24 @@
   line-height: 1.4;
 }
 .label {
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
   color: #6c757d;
   font-weight: bold;
 }
 
 .value {
   color: rgb(34, 23, 120); 
-  font-weight: normal;
-}
-.info-line {
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <400>;
-  font-style: normal;
+  font-style: bold;
+}
+.info-line {
+  
   display: flex;
   align-items: flex-start;
   gap: 15px;
