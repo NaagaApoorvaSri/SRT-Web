@@ -9,7 +9,9 @@
         scale: 1;
     }
 }
-    
+body{
+    margin: 5px;
+}
 .page1{
     background-image: url("./images/Black\ and\ White\ Chalkboard\ Brainstorm\ Presentation\ \(1\)[1].png");
     font-family: "Poppins", sans-serif;
@@ -410,4 +412,5 @@ padding-top: 60px;
 .Apoorva{
     text-decoration: underline;
 }
+
 
